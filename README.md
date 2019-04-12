@@ -1,0 +1,2 @@
+# This project is implementing SQLiteOpenHelper to save task to the SQLite Database
+# Also Implementing Shared Preference to save text size,Intent to open my github Account,And Recyclerview to display the task

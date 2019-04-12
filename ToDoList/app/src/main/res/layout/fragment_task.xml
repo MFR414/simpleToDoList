@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/addTask"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:hint="Task Name"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_toRightOf="@+id/addTask"
+            android:text="ADD"
+            android:textSize="20sp"
+            android:onClick="btnAddTaskOnClick"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_itemTask"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addTask">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</FrameLayout>

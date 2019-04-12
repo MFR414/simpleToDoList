@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dhanifudin.todoapp.MainActivity">
+    <item
+        android:id="@+id/action_large_textsize"
+        android:orderInCategory="1"
+        android:title="Large Size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_small_textsize"
+        android:orderInCategory="2"
+        android:title="Small Size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="3"
+        android:title="About"
+        app:showAsAction="never" />
+
+</menu>
